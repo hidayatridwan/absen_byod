@@ -7,8 +7,8 @@ class Background extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: double.infinity,
       width: double.infinity,
+      height: double.infinity,
       child: Stack(
         alignment: Alignment.center,
         children: [
@@ -19,10 +19,11 @@ class Background extends StatelessWidget {
             child: Image.asset(mainTop),
           ),
           Positioned(
-              bottom: 0,
-              left: 0,
-              width: 80.w,
-              child: Image.asset(mainBottom)),
+            bottom: 0,
+            right: 0,
+            width: 160.w,
+            child: Image.asset(loginBottom),
+          ),
           child
         ],
       ),
