@@ -13,29 +13,30 @@ class Body extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             SvgPicture.asset(
-              login,
+              register,
               height: 200.h,
             ),
             SizedBox(
-              height: 20.h,
+              height: 70.h,
             ),
-            const RoundedInputField(
-              hintText: 'NIK',
-              icon: Icons.person,
+            Text(
+              'Daftar Menjadi Karyawan?',
+              style: blackTextFont,
             ),
-            const RoundedInputField(
-              hintText: 'Password',
-              icon: Icons.lock,
+            SizedBox(
+              height: 15.h,
             ),
+            Text('Silahkan menghubungi HRD terdekat',
+                style: greyTextFont, textAlign: TextAlign.center),
             SizedBox(
               height: 10.h,
             ),
-            const RoundedButton(text: 'Login'),
+            const OrDivider(),
             SizedBox(
               height: 10.h,
             ),
             const IsRegistered(
-              login: true,
+              login: false,
             )
           ],
         ),

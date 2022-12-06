@@ -7,11 +7,11 @@ class TextFieldContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(vertical: largeMargin),
-      padding: EdgeInsets.symmetric(horizontal: 20.h, vertical: 5.w),
+      margin: EdgeInsets.symmetric(vertical: 10.w),
+      padding: EdgeInsets.symmetric(horizontal: 10.h, vertical: 5.w),
       width: double.infinity,
       decoration: BoxDecoration(
-          color: mainColor, borderRadius: BorderRadius.circular(30)),
+          color: accentColor4, borderRadius: BorderRadius.circular(10.w)),
       child: child,
     );
   }

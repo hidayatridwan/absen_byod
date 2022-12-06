@@ -7,3 +7,5 @@ part 'rounded_button.dart';
 part 'text_field_container.dart';
 
 part 'rounded_input_field.dart';
+
+part 'is_registered.dart';
