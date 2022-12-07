@@ -9,17 +9,26 @@ Color accentColor2 = const Color(0xFFFBD460);
 Color accentColor3 = const Color(0xFFADADAD);
 Color accentColor4 = const Color(0xFFF1E6FF);
 
-TextStyle blackTextFont = GoogleFonts.raleway().copyWith(
+TextStyle blackTextFont1 = GoogleFonts.raleway().copyWith(
     color: Colors.black, fontWeight: FontWeight.w500, fontSize: 20.sp);
+
+TextStyle blackTextFont2 = GoogleFonts.raleway().copyWith(
+    color: Colors.black, fontWeight: FontWeight.w600, fontSize: 13.sp);
 
 TextStyle whiteTextFont = GoogleFonts.raleway().copyWith(
     color: Colors.white, fontWeight: FontWeight.w500, fontSize: 16.sp);
 
-TextStyle purpleTextFont = GoogleFonts.raleway()
-    .copyWith(color: mainColor, fontWeight: FontWeight.w500, fontSize: 16.sp);
+TextStyle purpleTextFont1 = GoogleFonts.raleway()
+    .copyWith(color: mainColor, fontWeight: FontWeight.w600, fontSize: 16.sp);
 
-TextStyle greyTextFont = GoogleFonts.raleway().copyWith(
+TextStyle purpleTextFont2 = GoogleFonts.raleway()
+    .copyWith(color: mainColor, fontWeight: FontWeight.w600, fontSize: 13.sp);
+
+TextStyle greyTextFont1 = GoogleFonts.raleway().copyWith(
     color: accentColor3, fontWeight: FontWeight.w300, fontSize: 16.sp);
+
+TextStyle greyTextFont2 = GoogleFonts.raleway().copyWith(
+    color: accentColor3, fontWeight: FontWeight.w300, fontSize: 13.sp);
 
 TextStyle whiteNumberFont = GoogleFonts.openSans().copyWith(
     color: Colors.white, fontWeight: FontWeight.w300, fontSize: 16.sp);

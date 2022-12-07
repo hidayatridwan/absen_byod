@@ -21,13 +21,13 @@ class Body extends StatelessWidget {
             ),
             Text(
               'Daftar Menjadi Karyawan?',
-              style: blackTextFont,
+              style: blackTextFont1,
             ),
             SizedBox(
               height: 15.h,
             ),
             Text('Silahkan menghubungi HRD terdekat',
-                style: greyTextFont, textAlign: TextAlign.center),
+                style: greyTextFont1, textAlign: TextAlign.center),
             SizedBox(
               height: 10.h,
             ),

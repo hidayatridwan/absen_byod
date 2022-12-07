@@ -22,14 +22,14 @@ class Body extends StatelessWidget {
               ),
               Text(
                 'Attendance with BYOD',
-                style: blackTextFont,
+                style: blackTextFont1,
               ),
               SizedBox(
                 height: 15.h,
               ),
               Text(
                   'Jadikan HP anda sebagai absensi\nuntuk masuk dan pulang kerja',
-                  style: greyTextFont,
+                  style: greyTextFont1,
                   textAlign: TextAlign.center),
               SizedBox(
                 height: 70.h,
